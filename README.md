@@ -3,13 +3,13 @@ This project analyzes the effectiveness of the GADoT (GAN-based Adversarial Trai
 
 ### Methodology
 Two datasets were used for training and evaluation: <br>
-CSE-CIC-IDS2018 dataset for training
-CIC-IDS2017 dataset for evaluation
-20 significant features were extracted using a custom feature extractor
-The LUCID model was trained using the grid search technique with Adam optimizer for 50 epochs
-WGAN was used to generate fake benign samples for perturbing DDoS samples
-The adversarially trained LUCID model was evaluated by perturbing the following features in the test dataset:
-Flow Duration
-Packet Length Mean
-Flow Packets per second
-Flow bytes per second
+CSE-CIC-IDS2018 dataset for training <br>
+CIC-IDS2017 dataset for evaluation <br>
+20 significant features were extracted using a custom feature extractor <br>
+The LUCID model was trained using the grid search technique with Adam optimizer for 50 epochs <br>
+WGAN was used to generate fake benign samples for perturbing DDoS samples <br>
+The adversarially trained LUCID model was evaluated by perturbing the following features in the test dataset: <br>
+Flow Duration <br>
+Packet Length Mean <br>
+Flow Packets per second <br>
+Flow bytes per second <br>
