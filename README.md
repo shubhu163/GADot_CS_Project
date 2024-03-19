@@ -3,6 +3,7 @@ This project analyzes the effectiveness of the GADoT (GAN-based Adversarial Trai
 
 ### Methodology
 Two datasets were used for training and evaluation: <br>
+<ul>
 CSE-CIC-IDS2018 dataset for training <br>
 CIC-IDS2017 dataset for evaluation <br>
 20 significant features were extracted using a custom feature extractor <br>
@@ -13,3 +14,4 @@ Flow Duration <br>
 Packet Length Mean <br>
 Flow Packets per second <br>
 Flow bytes per second <br>
+</ul>
